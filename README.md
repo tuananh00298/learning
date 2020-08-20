@@ -1,3 +1,3 @@
 # Menu
-1. [Giới thiệu GraphQL](GraphQL.md)
-2. [Tìm hiểu Basic Authentication](BasicAuthentication.md)
+1. [Giới thiệu GraphQL](RubyGuide/GraphQL.md)
+2. [Tìm hiểu Basic Authentication](RubyGuide/BasicAuthentication.md)
