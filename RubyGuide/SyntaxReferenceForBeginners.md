@@ -8,8 +8,7 @@ I, Mục lục
 đầu. Chúng tá bắt đầu thôi
 
 II, Tìm hiểu
-
- 1 . String
+ 1. String
  -  Là chuỗi các ký tự bên trong dấu (""), hoặc dấu ngoặc đơn (''), sử dụng để thể hiện văn bản và dữ liệu
 
  ```
@@ -24,7 +23,7 @@ II, Tìm hiểu
     -   gsub
     -   split
 
- 2 .  Hashes:
+ 2.  Hashes:
  - Một Hash ({}) là cấu trúc dữ liệu cặp khóa - giá trị (key - value). Và sử dụng nó như 1 từ
  điển. Bạn có thể truy cập từng phần tử bằng khóa của chúng, Khóa là duy nhất.
 
@@ -44,8 +43,7 @@ II, Tìm hiểu
     - fetch
     - new
     - merge
-    
- 3 . Symbol
+ 3. Symbol
  - Là một chuỗi tĩnh được sử dụng để nhận dạng, chúng luôn luôn bắt đầu bằng dấu ":".
  - Khi sử dụng trong ngoặc ngọn, mặt có dấu 2 chấm được đảo ngược:
 
@@ -53,8 +51,7 @@ II, Tìm hiểu
  { abc: 1 }
  ```
  - Đây là ký hiệu của symbol ```:abc```
- 
- 4 . Array
+ 4. Array
  -  Là một đối tượng dùng để biểu diễn một danh sách của đối tượng.
  -  Một mảng có thể chứa tất cả các loại đối tượng
  ```a= [1, ""abc, []```, có thể chứa cả mảng khác
@@ -74,16 +71,14 @@ II, Tìm hiểu
     -   push/pop
     -   join
     -   flatten
-    
-5 . Enumerable
+5. Enumerable
 -   Một module của Ruby sử dụng để lặp lại các phần tử của bất kỳ lớp nào từng triển khai tưng phương thức
 như: Array, Range và Hash
 -   Phương thức quan trọng:
     -   map
     -   select
     -   inject
-    
-6 . File
+6. File
 -   Một lớp sẽ giúp bạn làm việc với file trong Ruby. Bất cứ điều gì thao tác với file như: đọc, ghi, lấy thông tin file và kích thước file.
     ```
     File.read("/tmp/test.txt")
@@ -91,13 +86,12 @@ như: Array, Range và Hash
 -   Phương thức quan trọng:
     -   write
     -   read
-    
+
 7 . Regular Expression
 -   Nếu bạn muốn tìm kiếm các mẫu, chuỗi, một cái j đó cụ thể trong chuỗi, khi đó Regular Expression có thể là thứ bạn muốn tìm kiếm
 -   Chúng có thể dùng để xác thực địa chỉ email hoặc số điện thoại, hoặc là để trích xuất thông tin từ văn bản.
-
 ```.env
-Ví dụ: 
+Ví dụ:
 "aaaa1".match?(/[0-9]/)
 # true
 "".match?(/[0-9]/)
@@ -145,7 +139,7 @@ regular_expression = %r([0-9])
     -   Sử dụng dấu ngoặc đơn khi có tham số truyền vào => `def foo(a, b, c)`
     -   Sử dụng dấu ngoặc đơn khi bạn muốn thay đổi độ ưu tiên hay ưu tiên trong phép tính (toán tử)
         => ```(a.size + b.size)*2```
-        
+
 12 . Định nghĩa phương thức
 ```env
 def backup_database
@@ -162,9 +156,7 @@ end
 14 . Toán tử 3 ngôi
 
 ``` true ? "yes" : "No"```
-
 15 . Chuỗi nội suy
-
 ```.env
 fruit = "orange"
 puts "I have an #{fruit}. Would you like a slice of it?"
