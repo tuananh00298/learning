@@ -25,6 +25,6 @@ Có 3 quyền bạn có thể cung cấp cho người dùng truy cập vào tài
         - Bạn muốn thêm người dùng dưới sự bảo vệ của tài khoản AWS của mình và muốn sử dụng IAM để tạo người dùng và tạo người dùng và quản lý quyền của họ
     - Truy cập của người dùng không phải AWS (không có tài khoản), thông qua liên kết xác thực danh tính giữa các hệ thống uỷ quyền của bạn và AWS
         - Bạn có người dùng không phải AWS trong hệ thống nhận dạng và uỷ quyền
-    - 
+    - Truy cập nhiều tài khoản giữa các tài khoản AWS
 
 
